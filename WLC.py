@@ -6,6 +6,6 @@ from netmiko import ConnectHandler
 with ConnectHandler(ip = '192.168.20.2',
                         port = 22,
                         username = 'admin',
-                        password = 'Cisco123!',
+                        password = 'password',
                         device_type = 'cisco_wlc_ssh') as ch:
     print(ch.send_command("show ap summary"))
