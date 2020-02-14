@@ -1,3 +1,4 @@
+# Update in progress to work with AireOS - Feb2020
 # Starter script to log in to IOS devices and pull basic info.
 # File is saved with hostname of the device.
 
